@@ -35,18 +35,22 @@
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    padding: 0 55px 0 105px;
+    /*padding: 0 55px 0 105px;*/
+    justify-content: space-between;
+    padding-bottom: 45px;
 }
 
 .fish_pics_two{
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    padding: 0 55px 0 105px;
+    justify-content: space-between;
+    /*padding: 0 55px 0 105px;*/
 }
 
 .fish_img {
-    max-width: 85%;
+    height: 285px;
+    max-width: 100%;
     width: auto;
 }
 
@@ -74,6 +78,6 @@ ul li ul {
 ul li ul li {
     font-size: 24px;
     display: inline;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
