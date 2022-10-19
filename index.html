@@ -8,21 +8,26 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+  <section id="page_start" class="header_section">
   <header class="header">
     Welcome to my aquarium!
+    </header>
     <div id="header_logo">
       <img id="header_img"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yeIQQIHo_KSJ2Rvac88NZ--ttYpgj19zBOazaJDHRARBmJ6i56VoOtalnu00ygn9NAc&usqp=CAU"/>
     </div>
-  </header>
+</section>
   <div class="nav_lock">
   <nav id="navbar" class="navbar">
     <ul class="nav_list">
-      <li><a href="">Home</a>
+      <li><a href="#page_start">Home</a>
       </li>
-      <li><a href="">About</a>
+      <li><a href="#about_me_info">About</a>
       </li>
-      <li><a href="">Fish</a>
+      <li><a href="#travel_tips_info">Travel</a>
+      </li>
+      <!--Make a dropdown list with all fish species-->
+      <li><a href="#about_fish_info">Fish</a>
       </li>
       <li><a href="">Tank Care</a>
       </li>
@@ -50,228 +55,290 @@
     <h3 class="body_h_font">
       <b>My Fish Collection</b>
     </h3>
-    <div class="fish_pics">
-      <img class="fish_img" id="fish_img_1"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
+    <div class="fish_pics_one">
+      <div class="fish_ul_div">
+        <!--I will probably have to make a new div for all the images and resize them
+        manually. Whenever I add a different image to the list, the borders on the second
+      row do not line up with eachother. -->
+        <img class="fish_img" id="fish_img_1"
+        src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
+        <ul>
+          <li>
+            Name:
+            <ul >
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Species:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Size:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Diet:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Collection Location:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <img class="fish_img" id="fish_img_2"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
+      <div class="fish_ul_div">
+        <img class="fish_img" id="fish_img_2"
+        src="https://www.thesprucepets.com/thmb/wNqkG8YzvRd22RBSk6lu4h5QZVo=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/low-maintenance-freshwater-fish-4770223-hero-ffb66c229c194e2db4916e88bbd17a15.jpg"/>
+          <ul>
             <li>
-              Blank
+              Name:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Species:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Size:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Diet:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Collection Location:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
             </li>
           </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
+      </div>
+      <div class="fish_ul_div">
+        <img class="fish_img" id="fish_img_3"
+        src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
+        <ul>
+          <li>
+            Name:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Species:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Size:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Diet:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Collection Location:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <img class="fish_img" id="fish_img_3"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
+      </div>
+      <div class="fish_pics_two">
+      <div class="fish_ul_div">
+        <img class="fish_img" id="fish_img_4"
+        src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
+          <ul>
             <li>
-              Blank
+              Name:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Species:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Size:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Diet:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
+            </li>
+            <li>
+              Collection Location:
+              <ul>
+                <li>
+                  Blank
+                </li>
+              </ul>
             </li>
           </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
+      </div>
+      <div class="fish_ul_div">
+        <img class="fish_img" id="fish_img_5"
+        src="https://www.thesprucepets.com/thmb/wNqkG8YzvRd22RBSk6lu4h5QZVo=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/low-maintenance-freshwater-fish-4770223-hero-ffb66c229c194e2db4916e88bbd17a15.jpg"/>
+        <ul>
+          <li>
+            Name:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Species:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Size:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Diet:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Collection Location:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <img class="fish_img" id="fish_img_4"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
+      <div class="fish_ul_div">
+        <img class="fish_img" id="fish_img_6"
+        src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
+        <ul>
+          <li>
+            Name:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Species:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Size:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Diet:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
+          <li>
+            Collection Location:
+            <ul>
+              <li>
+                Blank
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
-      <img class="fish_img" id="fish_img_5"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
-        </ul>
       </div>
-      <img class="fish_img" id="fish_img_6"
-      src="https://www.georgiaaquarium.org/wp-content/uploads/2022/03/peacock-mantis-shrimp-2.jpg"/>
-      <div class="fish_details">
-        <ul class="fish_details_main_ul">
-          <!--Make UL elements have clickable menu to display LI elements-->
-          <ul class="fish_details_ul">
-            Name
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Species
-            <li>
-              Peacock Mantis Shrimp
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Size
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Diet
-            <li>
-              Blank
-            </li>
-          </ul>
-          <ul class="fish_details_ul">
-            Collection Location
-            <li>
-              Blank
-            </li>
-          </ul>
-        </ul>
+    </div>
       </div>
 
     </div>

@@ -1,0 +1,79 @@
+.header_section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+.nav_lock{
+    border: 1px solid black;
+}
+.nav_list{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.nav_list a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.about_fish {
+    border: 1px solid black;
+}
+
+.fish_pics_one{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 0 55px 0 105px;
+}
+
+.fish_pics_two{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 0 55px 0 105px;
+}
+
+.fish_img {
+    max-width: 85%;
+    width: auto;
+}
+
+.fish_ul_div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: block;
+    font-size: 29px;
+    line-height: 35px;
+}
+ul li ul {
+   display: inline;
+}
+
+ul li ul li {
+    font-size: 24px;
+    display: inline;
+    margin-left: 15px;
+}
+
