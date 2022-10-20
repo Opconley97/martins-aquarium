@@ -1,74 +1,91 @@
+html{
+    background-color: rgb(4, 65, 54);
+}
+
 .header_section{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .header {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 30px;
+    font-size: 55px;
 }
-.nav_lock{
-    border: 1px solid black;
-}
+/* .nav_lock{ */
+    /* border: 1px solid black; */
+/* } */
 .nav_list{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    padding-top: 45px;
 }
 
 
 .nav_list a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
+    color: black;
 }
 
-.about_fish {
-    border: 1px solid black;
+.nav_list a:hover{
+    color: purple;
 }
+
+.about_fish { 
+ } 
 
 .fish_pics_one{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     /*padding: 0 55px 0 105px;*/
-    justify-content: space-between;
-    padding-bottom: 45px;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
 }
 
 .fish_pics_two{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /*padding: 0 55px 0 105px;*/
+    justify-content: space-evenly;
+    padding-bottom: 40px;
 }
 
 .fish_img {
     height: 285px;
-    max-width: 100%;
+    max-width: 365px;
     width: auto;
+    padding-bottom: 25px;
+    border-radius: 2%;
+    /* padding-top: 25px; */
 }
 
 .fish_ul_div {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    width: 365px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 2%;
+    box-shadow: 0px 8px 10px 10px; 
 }
 
 ul {
     margin: 0;
     padding: 0;
+    line-height: 50px;
 }
 
 ul li {
     list-style: none;
     display: block;
-    font-size: 29px;
+    font-size: 28px;
     line-height: 35px;
 }
 ul li ul {
@@ -78,6 +95,32 @@ ul li ul {
 ul li ul li {
     font-size: 24px;
     display: inline;
-    margin-left: 10px;
+    margin-right: 5px;
+    float:right;
+    line-height: 50px;
+
 }
 
+.test_info_css{
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+
+.main_font {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body_h_font {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_fish_h_font {
+    font-size: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+}
