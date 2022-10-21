@@ -15,9 +15,9 @@ html{
     justify-content: center;
     font-size: 55px;
 }
-/* .nav_lock{ */
-    /* border: 1px solid black; */
-/* } */
+/* .nav_lock{ 
+    border: 1px solid black; 
+} */
 .nav_list{
     /* border: 1px solid black; */
     display: flex;
