@@ -37,9 +37,6 @@ html{
     color: purple;
 }
 
-.about_fish { 
- } 
-
 .fish_pics_one{
     /* border: 1px solid black; */
     display: flex;
@@ -112,15 +109,20 @@ ul li ul li {
 .main_font {
     margin-left: 150px;
     margin-right: 150px;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 .body_h_font {
     font-size: 30px;
     text-align: center;
+    text-decoration-line: underline;
+    padding: 25px 0px 25px 0px;
 }
 
 .about_fish_h_font {
     font-size: 40px;
     padding-bottom: 25px;
     text-align: center;
+    text-decoration: underline;
 }
